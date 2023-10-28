@@ -2,7 +2,6 @@ import "./App.css";
 import { useState } from "react";
 import Navbar from "./Components/Navbar.js";
 import CourseCard from "./Components/CourseCard.js";
-import Navb from './Components/naveg2.js'
 function App() {
   const [texta, setText] = useState("Title");
 
@@ -11,8 +10,7 @@ function App() {
 
   return (
     <div>
-      {/* <Navbar title={texta} /> */}
-      <Navb/>
+      <Navbar title={texta} />
       <div style={cardContainerStyle}>{cards}</div>
     </div>
   );
