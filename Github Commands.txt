@@ -1,0 +1,8 @@
+To initialize repo = git init
+To add files for commit = git add .
+To get status = git status
+To commit = git commit -m "message"
+To clone repo = git remote clon "Link"
+To add repo for pushing files = git remote add origin https://github.com/ChinmayLale/ReactProject.git
+To Push Files To repo = git push origin main
+To check branch - git branch
