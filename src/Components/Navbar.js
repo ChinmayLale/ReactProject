@@ -80,7 +80,7 @@ export default function Navbar(props) {
 }
 
 Navbar.propTypes = {
-  title: PropTypes.string,
+  title: PropTypes.string.isRequired,
   about_us: PropTypes.string.isRequired,
 };
 
