@@ -1,0 +1,147 @@
+.card {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 492px;
+  position: relative;
+  width: 360px;
+}
+
+.card .card-body {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 25px;
+  position: relative;
+  width: 100%;
+}
+
+.card .text-wrapper {
+  color: #000000;
+  flex: 1;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.26px;
+  line-height: 25px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.card .icons {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.card .food-icons-organic {
+  background-color: var(--cards-4-action-color);
+  border-radius: 12px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.card .img {
+  height: 14px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 14px;
+}
+
+.card .food-icons-hot-icon {
+  background-color: var(--cards-3-main-button);
+  border-radius: 12px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.card .unsplash {
+  align-self: stretch;
+  background-image: url(./unsplash-nxkwln8y9qe.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.card .three-layer-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 25px;
+  position: relative;
+  width: 100%;
+}
+
+.card .three-layer {
+  color: #000000;
+  flex: 1;
+  font-family: var(--body-body1-font-family);
+  font-size: var(--body-body1-font-size);
+  font-style: var(--body-body1-font-style);
+  font-weight: var(--body-body1-font-weight);
+  letter-spacing: var(--body-body1-letter-spacing);
+  line-height: var(--body-body1-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.card .card-footer {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 25px;
+  position: relative;
+  width: 100%;
+}
+
+.card .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.card .price {
+  color: var(--heading-text);
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-top: -1px;
+  position: relative;
+  width: 88px;
+}
+
+.card .discount {
+  color: var(--cards-3-main-button);
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-top: -1px;
+  position: relative;
+  text-decoration: line-through;
+  width: 73px;
+}
+
+.card .button-instance {
+  flex: 0 0 auto !important;
+}

@@ -1,0 +1,13 @@
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --body-body1-font-family: "Roboto-Regular", Helvetica;
+    --body-body1-font-size: 16px;
+    --body-body1-font-style: normal;
+    --body-body1-font-weight: 400;
+    --body-body1-letter-spacing: 0.5px;
+    --body-body1-line-height: 23px;
+    --cards-3-main-button: rgba(248, 89, 59, 1);
+    --cards-4-action-color: rgba(46, 204, 113, 1);
+    --heading-text: rgba(8, 31, 50, 1);
+  }
+  
